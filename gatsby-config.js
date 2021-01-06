@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `We Comin' For You Cast Links`,
+    title: `We Comin' For You Cast`,
     description: `Listen wherever you get your podcasts`,
     author: `@RaySanders7`,
   },
@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/content/images`,
       },
     },
     `gatsby-transformer-sharp`,
