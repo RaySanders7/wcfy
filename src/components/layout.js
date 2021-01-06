@@ -21,10 +21,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer style={{color: `black`, fontSize: `12px`}}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org" style={{color: `black`}}>Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     </>
