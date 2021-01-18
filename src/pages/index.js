@@ -17,7 +17,9 @@ const IndexPage = () => (
       justifyContent: `center`,
       maxWidth: `680px`, 
       marginBottom: `1.45rem`, 
-      fontSize: `16px`
+      fontSize: `16px`,
+      backgroundColor: `black`,
+      color: `white`
       }}
     >  
       <div style={{display: `block`}}>
@@ -37,7 +39,7 @@ const IndexPage = () => (
           >        
             <a href={link.url} style={{
               display: `block`,
-              border: `2px solid black`, 
+              border: `2px solid white`, 
               borderRadius: `4px`,
               paddingTop: `1rem`,
               paddingBottom: `1rem`,
@@ -45,7 +47,7 @@ const IndexPage = () => (
               paddingRight: `1rem`,
               textDecoration: `none`,
               textAlign: `center`,
-              color: `black`
+              color: `white`
               }}
             >            
               <div>{link.name}</div>
